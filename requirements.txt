@@ -1,0 +1,15 @@
+langchain
+langchain_openai
+beautifulsoup4
+langchain_community
+langchain_chroma
+langchain_anthropic
+langchainhub
+unstructured
+markdown
+requests
+beautifulsoup4
+langchain-openai
+youtube_search
+langgraph
+chromadb
