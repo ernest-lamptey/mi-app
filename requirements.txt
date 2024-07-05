@@ -3,7 +3,6 @@ langchain_openai
 beautifulsoup4
 langchain_community
 langchain_chroma
-langchain_anthropic
 langchainhub
 unstructured
 markdown
@@ -13,3 +12,5 @@ langchain-openai
 youtube_search
 langgraph
 chromadb
+python-dotenv
+streamlit

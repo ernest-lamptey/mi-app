@@ -13,12 +13,16 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.prompts import PromptTemplate
 import streamlit as st
+from dotenv import load_dotenv
+
+load_dotenv()
 
 st.title("Job Application Assistant")
 
-os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = ""
-os.environ["OPENAI_API_KEY"] = ""
+
+LANGCHAIN_TRACING_V2 = os.getenv("LANGCHAIN_TRACING_V2")
+LANGCHAIN_API_KEY=  os.getenv("LANGCHAIN_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 
 markdown_path = "resume.md"
